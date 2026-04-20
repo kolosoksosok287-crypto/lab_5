@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <title>Моє резюме</title>
+  <meta charset="UTF-8">
+  <title>Моє резюме</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 1.5rem; color: #222; }
+    header { text-align: center; padding: 2rem 1rem; border-bottom: 1px solid #eee; margin-bottom: 1.5rem; }
+    .avatar { width: 64px; height: 64px; border-radius: 50%; background: #dbeafe; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 500; color: #1d4ed8; margin: 0 auto 12px; }
+    h1 { font-size: 28px; font-weight: 500; }
+    header p { font-size: 14px; color: #666; margin-top: 6px; }
+    .badge { display: inline-block; background: #dbeafe; color: #1d4ed8; font-size: 12px; padding: 3px 10px; border-radius: 8px; margin-top: 8px; }
+    section { margin-bottom: 1.5rem; }
+    h2 { font-size: 13px; font-weight: 500; color: #888; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; padding-bottom: 4px; border-bottom: 1px solid #eee; }
+    p { font-size: 15px; line-height: 1.7; }
+    ul { list-style: none; display: flex; gap: 8px; flex-wrap: wrap; }
+    ul li { background: #f5f5f5; border: 1px solid #eee; border-radius: 8px; padding: 5px 14px; font-size: 14px; }
+    a { color: #1d4ed8; text-decoration: none; }
+    footer { text-align: center; font-size: 13px; color: #888; border-top: 1px solid #eee; padding-top: 1rem; margin-top: 1rem; }
+  </style>
 </head>
 <body>
-
-<header>
+  <header>
+    <div class="avatar">VP</div>
     <h1>Vlad Pavliv</h1>
     <p>Майбутній веброзробник</p>
-</header>
-
-<main>
+    <span class="badge">Відкритий до роботи</span>
+  </header>
+  <main>
     <section>
-        <h2>Про мене</h2>
-        <p>Я веброзробник</p>
+      <h2>Про мене</h2>
+      <p>Я веброзробник, захоплений створенням сучасних та зручних вебсайтів. Постійно навчаюсь і розвиваюсь у сфері веброзробки.</p>
     </section>
-
     <section>
-        <h2>Навички</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
+      <h2>Навички</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
     </section>
-
     <section>
-        <h2>Контакти</h2>
-        <p>Email: example@gmail.com</p>
-        <a href="https://github.com/rogalick31">Мій GitHub</a>
+      <h2>Контакти</h2>
+      <p>Email: <a href="mailto:example@gmail.com">example@gmail.com</a></p>
+      <a href="https://github.com/rogalick31">GitHub → rogalick31</a>
     </section>
-</main>
-
-<footer>
-    <p>© 2026</p>
-</footer>
-
+  </main>
+  <footer>© 2026 Vlad Pavliv</footer>
 </body>
 </html>
